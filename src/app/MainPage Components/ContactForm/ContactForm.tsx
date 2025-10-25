@@ -33,7 +33,7 @@ export default function ContactForm() {
         setSubmissionStatus({ submitting: true, succeeded: false, error: false });
 
         try {
-            const response = await fetch('https://formspree.io/f/xanbyqyw', { 
+            const response = await fetch('https://formspree.io/f/xovlvaay', { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
